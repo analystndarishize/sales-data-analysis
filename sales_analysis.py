@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_excel("/content/sales datasets.xlsx")
+df = pd.read_excel("sales datasets.xlsx")
 
 print(df.head())
 print(df.info())
